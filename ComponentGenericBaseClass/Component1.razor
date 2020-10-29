@@ -1,0 +1,8 @@
+﻿@typeparam TItem
+@inherits MyComponentBase<TItem>
+
+Component with base class...
+
+@code {
+	[Parameter] public IEnumerable<TItem> Data { get; set; } //Data for static values
+}
